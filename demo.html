@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="init.css" />
+    <link rel="stylesheet" href="demo.css" />
+    <title>INIT.CSS</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Heading 1 <small>– small text</small></h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        voluptatem tempore praesentium, consectetur quaerat ea modi aspernatur
+        eum eaque, fugit aperiam porro voluptates neque dignissimos! Obcaecati
+        accusamus nam accusantium ullam!
+      </p>
+
+      <p>
+        <strong>Strong text</strong>, <em>italic text</em>,
+        <u>underline text</u>,
+        <a>link text</a>
+      </p>
+
+      <hr />
+
+      <ul>
+        <li>Hattie Bryan</li>
+        <li>James Ryan</li>
+        <li>Mollie Riley</li>
+      </ul>
+
+      <ol>
+        <li>Nathan Matthews</li>
+        <li>Lina Yates</li>
+        <li>Dora Harris</li>
+      </ol>
+
+      <dl>
+        <dt>Beast of Bodmin</dt>
+        <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+        <dt>Morgawr</dt>
+        <dd>A sea serpent.</dd>
+
+        <dt>Owlman</dt>
+        <dd>A giant owl-like creature.</dd>
+      </dl>
+
+      <figure>
+        <blockquote>
+          <p>
+            Microsoft isn't evil, they just make really crappy operating
+            systems.
+          </p>
+        </blockquote>
+        <figcaption>– <cite>Linus Torvalds</cite></figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://source.unsplash.com/26vBUtlufFo/1600x800"
+          alt="Elephant at sunset"
+        />
+        <figcaption>Great image caption</figcaption>
+      </figure>
+
+      <form>
+        <fieldset>
+          <legend>Virgie Jenkins</legend>
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Give a name"
+            />
+          </div>
+
+          <div class="field">
+            <label for="file-input">File input</label>
+            <input id="file-input" type="file" name="file-input" />
+          </div>
+
+          <div class="field">
+            <label for="range-input">Range input</label>
+            <input id="range-input" type="range" name="range-input" />
+          </div>
+
+          <div class="field">
+            <label for="color-input">Color input</label>
+            <input
+              id="color-input"
+              type="color"
+              name="color-input"
+              value="#f0c0ff"
+            />
+          </div>
+
+          <div class="field">
+            <label for="friend">Friend</label>
+
+            <select name="friend" id="friend">
+              <option value="">Winifred Gross</option>
+              <option value="">Cornelia Tate</option>
+              <option value="">Amanda Obrien</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Leader</label>
+            <div>
+              <input type="radio" name="leader" id="leader1" />
+              <label for="leader1">Jeffrey Pittman</label>
+            </div>
+            <div>
+              <input type="radio" name="leader" id="leader2" />
+              <label for="leader2">Manuel Rice</label>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="field">
+            <input type="checkbox" name="agree" id="agree" value="agree" />
+            <label for="agree">I agree everything</label>
+          </div>
+
+          <div class="field">
+            <button>Send message</button>
+            <small><button class="secondary outline" disabled>Reset</button></small>
+          </div>
+        </fieldset>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Population</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Finland</td>
+            <td>Helsinki</td>
+            <td>5,528,737</td>
+          </tr>
+          <tr>
+            <td>Sweden</td>
+            <td>Stockholm</td>
+            <td>10,367,232</td>
+          </tr>
+          <tr>
+            <td>Norway</td>
+            <td>Oslo</td>
+            <td>5,432,580</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>21,328,549</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>
